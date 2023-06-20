@@ -1,0 +1,12 @@
+{
+  "name": "Remove AD from Amazon",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "Amazonのスポンサー商品を非表示にする",
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.co.jp/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
